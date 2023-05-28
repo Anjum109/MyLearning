@@ -1,0 +1,31 @@
+.inline-flex.flex-col.items-center.justify-center.px-5.hover\:bg-white.dark\:hover\:bg-gray-800.group.text-baseT:hover {
+    background-color: white;
+}
+
+.inline-flex.flex-col.items-center.justify-center.px-5.hover\:bg-white.dark\:hover\:bg-gray-800.group.text-baseT {
+    background-color: white;
+}
+
+.inline-flex.flex-col.items-center.justify-center.px-5.hover\:bg-white.dark\:hover\:bg-gray-800.group {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.dark\:hover\:bg-gray-800:hover {
+    --tw-bg-opacity: 1;
+    background-color: white;
+}
+
+.dark\:text-gray-400.font-bold {
+    background-color: white;
+
+}
+
+.h-\[25\.22px\].w-\[25\.22px\].dark\:hover\:bg-white.bg-white {
+    border-left: 0;
+}
+
+.used-font {
+    font-display: swap;
+}
