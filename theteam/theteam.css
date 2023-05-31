@@ -1,0 +1,54 @@
+.drawer {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+
+}
+
+.drawer.open {
+    width: 300px;
+    /* Adjust the width as desired */
+    height: auto;
+    overflow: visible;
+}
+
+.drawer-content {
+    height: 50px;
+    overflow: hidden;
+}
+
+.drawer-side {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    overflow: hidden;
+    background-color: white;
+    overflow-y: hidden;
+    display: none;
+    transition: width 0.3s ease;
+
+}
+
+.drawer-side.open {
+    width: 450px;
+
+    display: block;
+}
+
+.menu {
+    display: none;
+}
+
+.menu.open {
+    display: block;
+}
+
+@media (max-width: 1250px) {
+    .drawer-side.open {
+        width: 300px;
+
+    }
+
+}
